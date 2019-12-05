@@ -1,1 +1,114 @@
 /* You can add global styles to this file, and also import other style files */
+h1 {
+    font-size: 4vw;
+    color: #888;
+    margin: 0;
+  
+  }
+  h2 {
+    font-size: 3vw;
+    color: rgb(136, 136, 136);
+    margin: 0;
+  }
+  nav a {
+    font-size: 3vw;
+    padding: 0.5vw 1vw;
+    text-decoration: none;
+    margin: 0;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 4px;
+  }
+  nav a:visited, a:link {
+    color: #444;
+  }
+  nav a:hover {
+    color: dodgerblue;
+    background-color: #CFD8DC;
+  }
+  nav a.active {
+    color: dodgerblue;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .list {
+    list-style-type: none;
+    display: inline-block;
+    width: 45%;
+    padding: 0.2vw;
+    margin: 0;
+  }
+  .list li {
+    background-color: #EEE;
+    border-radius: 4px;
+  }
+  .list li:hover {
+      color: #607D8B;
+      background-color: #DDD;
+      position: relative;
+      left: .15em;
+  }
+  .list li.selected {
+      background-color: dodgerblue !important;
+      color: greenyellow;
+  }
+  .badge {
+      font-size: 1.6vw;
+      color: white;
+      background-color: #607D8B;
+      display: inline-block;
+      width: 90%; 
+      border-radius: 4px; 
+      text-align: center;
+      vertical-align: middle;
+  }
+  .badgeouter {
+    display: inline-block;
+    width: 40%;
+  }
+  .text {
+    width: 55%;
+    display: inline-block;
+    font-size: 1.8vw;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .mine {
+    display: inline;
+  }
+  .detail {
+    display: inline-block;
+    position: fixed;
+    padding: 0 1vw;
+    width: 50%;
+  }
+  .transframe {
+    margin: 0;
+    padding: 0 0.5em;
+    background-color: #EEE ;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: dodgerblue;
+    width: 70%;
+    display: inline-block;
+  }
+  .transouter {
+      display: inline-block;
+      width: 30%;
+      text-align: right;
+  }
+  .transkey {
+      font-size: 1.4vw;
+      background-color: white;
+      border-radius: 4px;
+      display: inline-block;
+      border-style: solid;
+      border-color: #607D8B;
+      border-width: 1px;
+  }

@@ -1,0 +1,11 @@
+<div *ngIf="trans">
+    <h2>Transaction Details</h2>
+    <div class="transframe">
+        <div *ngFor="let key of getKeys()">
+            <div class="transouter">
+                <div class="transkey">{{key}}:</div>
+            </div>
+            <span class="text">{{trans[key]}}</span>
+        </div>
+    </div>
+</div>

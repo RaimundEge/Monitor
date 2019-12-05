@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col mine">
+        <ul class="list">
+            <li *ngFor="let item of items" [class.selected]="item === selected" (click)="onSelect(item)">
+                <div class="badgeouter"><span class="badge">{{item.date}}</span></div>
+                <div class="text">{{item.vendor}} &nbsp;|&nbsp; {{item.trans}}</div>
+            </li>
+        </ul>
+    </div>
+    <div class="col mine detail">
+        <app-detail [trans]="selected"></app-detail>
+    </div>
+</div>
